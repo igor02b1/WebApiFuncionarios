@@ -19,5 +19,10 @@ namespace WebApiFuncionarios.Controllers
         {
             return Ok(await _funcionarioInterface.GetFuncionarios());
         }
+        [HttpPost]
+        public async Task<ActionResult<ServiceResponse<List<FuncionarioModel>>>> CreateFuncionario(FuncionarioModel novoFuncionario)
+        {
+            return Ok(await _funcionarioInterface.CreateFuncionario(novoFuncionario));
+        }
     }
 }
