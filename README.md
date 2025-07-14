@@ -14,4 +14,4 @@ Esta é uma API construída com `.NET Core` e `EF Core`, que realiza operações
 - `.NET Core`
 - `Entity Framework Core`
 - `SQL Server`
-- `Swagger` (caso tenha usado para documentação)
+- `Swagger` 
